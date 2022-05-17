@@ -1,0 +1,91 @@
+/* The CSS ruleset syntax
+
+selector {
+    declaration
+    
+    property: value;
+
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ecf0f1;
+    font-family: "Arial", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #2c3e50;
+    position: fixed;
+    width: 100vw;
+    height: 3em;
+    padding-left: 1.5em;
+    box-shadow: 0px 10px 40px -10px;
+}
+
+.nav-link:hover {
+    color: #2980b9;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+/* .menu-options {
+    display: flex;
+
+    (flex is way to have containers, and/or containers within each other to interact)
+
+    height: 3em;
+    align-items: center;
+
+    (another way to center nav tabs on the nav bar, solved by 'display' and 'align-items' under nav)
+
+} */
+
+.main-wrapper {
+    padding-top: 3em;
+}
+
+#main-heading {
+    padding: 0.5em;
+}
+
+#main-text {
+    font-size: 15vw;
+}
+
+#html {
+    background-color: #bdc3c7;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+}
+.p-img-logos {
+    width: 10em;
+    height: 10em;
+    object-fit: contain;
+}
+
+.text-img-wrapper {
+    display: flex;
+    text-align: justify;
+}
