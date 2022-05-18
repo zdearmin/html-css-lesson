@@ -160,4 +160,14 @@ h2::first-letter {
     justify-content: center;
     padding-top: 1em;
     padding-bottom: 1em;
+    gap: 1em;
+}
+
+.fa {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.fa:hover {
+    opacity: 0.5;
 }
