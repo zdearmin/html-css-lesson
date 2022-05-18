@@ -31,7 +31,7 @@ nav {
     width: 100vw;
     height: 3em;
     padding-left: 1.5em;
-    box-shadow: 0px 10px 40px -10px;
+    box-shadow: 0px 10px 40px -15px;
 }
 
 .nav-link:hover {
@@ -120,4 +120,44 @@ nav {
 
 #submit {
     width: 40vw;
+    display: inline-flex;
+    justify-content: center;
+    color: whitesmoke;
+    height: 50px;
+    padding: 0;
+    background-color: #2c3e50;
+    border: none;
+    outline: none;
+    border-radius: 40vw;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #34495e;   
+}
+
+#submit:active {
+    background-color: #95a5a6;
+}
+
+/* css selectors get one colon (:) */
+/* a[href="#html"]:active {
+    background-color: #a2cce9;
+} */
+
+/* psuedo-element gets two colons (::) */
+h2::first-letter {
+    font-size: xx-large;
+}
+
+.footer {
+    color: white;
+    background-color: #34495e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
