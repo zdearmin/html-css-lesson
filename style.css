@@ -148,9 +148,6 @@ nav {
 } */
 
 /* psuedo-element gets two colons (::) */
-h2::first-letter {
-    font-size: xx-large;
-}
 
 .footer {
     color: white;
