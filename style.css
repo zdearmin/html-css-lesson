@@ -79,13 +79,45 @@ nav {
     padding-bottom: 1em;
     padding-left: 0.5em;
 }
+
+#css {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+}
 .p-img-logos {
     width: 10em;
     height: 10em;
     object-fit: contain;
 }
 
+#form-container {
+    background-color: #bdc3c7;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .text-img-wrapper {
     display: flex;
     text-align: justify;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#email {
+    width: 40vw;
+}
+
+#message {
+    width: 40vw;
+}
+
+#submit {
+    width: 40vw;
 }
